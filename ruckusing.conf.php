@@ -16,5 +16,5 @@ return array(
     'migrations_dir' => array('default' => RUCKUSING_WORKING_BASE . DIRECTORY_SEPARATOR . 'db/migrations'),
     'db_dir' => RUCKUSING_WORKING_BASE . DIRECTORY_SEPARATOR . 'db',
     'log_dir' => RUCKUSING_WORKING_BASE . DIRECTORY_SEPARATOR . 'db/logs',
-    'ruckusing_base' => dirname(__FILE__) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'ruckusing' . DIRECTORY_SEPARATOR . 'ruckusing-migrations'
+    'ruckusing_base' => dirname(__FILE__) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'letsdrink' . DIRECTORY_SEPARATOR . 'ruckusing-migrations'
 );

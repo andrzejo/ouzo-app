@@ -30,7 +30,7 @@
     },
     "repositories": [
         {
-            "type": "git",
+            "type": "github",
             "url":  "https://github.com/letsdrink/ruckusing-migrations.git"
         }
     ]

@@ -33,7 +33,9 @@
                 "type": "package",
                 "package": {
                     "name": "letsdrink/ruckusing-migrations",
-                    "version": "dev-master",
+                    "version": "dev-master"
+                },
+                "source": {
                     "url": "https://github.com/letsdrink/ruckusing-migrations.git",
                     "type": "vcs"
                 }

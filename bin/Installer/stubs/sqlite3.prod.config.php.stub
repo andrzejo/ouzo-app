@@ -1,6 +1,10 @@
 <?php
 $config['db']['dbname'] = 'database_path';
 $config['db']['driver'] = 'sqlite';
+$config['db']['host'] = '';
+$config['db']['port'] = '';
+$config['db']['user'] = '';
+$config['db']['pass'] = '';
 $config['sql_dialect'] = '\\Ouzo\\Db\\Dialect\\Sqlite3Dialect';
 $config['db']['dsn'] = 'sqlite:ouzo_test';
 $config['global']['prefix_system'] = '/ouzo-test';

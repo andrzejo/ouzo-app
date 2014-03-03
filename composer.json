@@ -36,8 +36,7 @@
                     "version": "dev-master",
                     "source": {
                         "url": "https://github.com/letsdrink/ruckusing-migrations.git",
-                        "type": "git",
-                        "reference": "letsdrink/ruckusing-migrations"
+                        "type": "git"
                     },
                     "autoload": {
                         "classmap": ["libs/"]

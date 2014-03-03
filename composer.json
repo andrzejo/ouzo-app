@@ -37,6 +37,9 @@
                     "source": {
                         "url": "https://github.com/letsdrink/ruckusing-migrations.git",
                         "type": "vcs"
+                    },
+                    "autoload": {
+                        "classmap": ["lib/"]
                     }
                 }
             }

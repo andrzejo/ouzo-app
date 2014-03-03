@@ -34,13 +34,13 @@
                 "package": {
                     "name": "letsdrink/ruckusing-migrations",
                     "version": "dev-master",
+                    "url": "https://github.com/letsdrink/ruckusing-migrations.git",
+                    "type": "vcs",
                     "source": {
                         "url": "https://github.com/letsdrink/ruckusing-migrations.git",
                         "type": "vcs"
                     }
-
                 }
-
             }
         ]
 }

@@ -22,7 +22,6 @@ class PostCreateProject
         if (in_array($code, array(1, 2, 3))) {
             $event->getIO()->write("<info>Setting up $translated Done!</info>");
             $path = self::_getPath($event);
-            echo "Path: " . $path . "\n";
             self::_prepareToCopyConfig($code, $path);
             self::_changeDnsAndDatabaseIfSqlite3($code, $path, 'prod');
             self::_changeDnsAndDatabaseIfSqlite3($code, $path, 'test');
@@ -118,7 +117,7 @@ class PostCreateProject
 
     private static function _changeDbName($conf, $path, $db_name)
     {
-        self::_replaceValue($path, $conf, 'app', $db_name);
+        self::_replaceValue($path, $conf, 'database_app_placeholder', $db_name);
     }
 
     private static function _getPath(Event $event)

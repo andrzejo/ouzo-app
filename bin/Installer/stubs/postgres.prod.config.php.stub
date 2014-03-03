@@ -1,5 +1,5 @@
 <?php
-$config['db']['dbname'] = 'app';
+$config['db']['dbname'] = 'database_app_placeholder';
 $config['db']['user'] = 'ouzo';
 $config['db']['pass'] = 'password';
 $config['db']['driver'] = 'pgsql';

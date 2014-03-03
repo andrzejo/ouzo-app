@@ -11,7 +11,7 @@
     ],
     "require": {
         "letsdrink/ouzo": "1.0",
-        "letsdrink/ruckusing-migrations": "*"
+        "letsdrink/ruckusing-migrations": "dev-master"
     },
     "require-dev": {
         "composer/composer": "dev-master"
@@ -38,6 +38,9 @@
                         "url": "https://github.com/letsdrink/ruckusing-migrations.git",
                         "type": "git",
                         "reference": "master"
+                    },
+                    "autoload": {
+                        "classmap": ["lib/"]
                     }
                 }
             }

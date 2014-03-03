@@ -35,7 +35,9 @@
                     "name": "letsdrink/ruckusing-migrations",
                     "version": "dev-master",
                     "url": "https://github.com/letsdrink/ruckusing-migrations.git",
-                    "type": "vcs"
+                    "type": "vcs",
+                    "source":"https://github.com/letsdrink/ruckusing-migrations.git"
+
                 }
             }
         ]

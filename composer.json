@@ -34,14 +34,10 @@
                 "package": {
                     "name": "letsdrink/ruckusing-migrations",
                     "version": "dev-master",
-                    "dist": {
-                        "url": "http://www.smarty.net/files/Smarty-3.1.7.zip",
-                        "type": "zip"
-                    },
                     "source": {
-                        "url": "http://smarty-php.googlecode.com/svn/",
-                        "type": "svn",
-                        "reference": "tags/Smarty_3_1_7/distribution/"
+                        "url": "https://github.com/letsdrink/ruckusing-migrations.git",
+                        "type": "git",
+                        "reference": "letsdrink/ruckusing-migrations"
                     },
                     "autoload": {
                         "classmap": ["libs/"]
